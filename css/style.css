@@ -1,99 +1,44 @@
-*{
-    margin: 0 ;
-   padding: 0%;
-   box-sizing: border-box;
-}
-body{
-    background-color: grey;
-}
-.NavBar{
-    background-color:black;
-    padding: 10px;
-}
-.NavBar li{
+header {
+  background-color: black; }
+  header .NavBar {
+    background-color: black;
+    padding: 10px; }
+  header .NavBar li {
     display: inline;
     margin: 20px;
-    flex-wrap: wrap;
-}
-.NavBar a{
+    flex-wrap: wrap; }
+  header .NavBar a {
     text-decoration: none;
     color: white;
-    font: size 80px; 
-    font-weight: 100; 
+    font: size 80px;
+    font-weight: 100;
     font-family: 'Source Sans Pro', sans-serif;
-    list-style: none;
-}
-.NavBar p{
-    text-align:center;
+    list-style: none; }
+  header .NavBar p {
+    text-align: center;
     text-transform: capitalize;
     color: yellow;
-    font-size: 50px;
+    font-size: 50px; }
+  header .carouselExampleIndicators {
+    height: 10px; }
 
-}
-.underbar{
-    background-color:black;
-    padding: 50px;
-}
-.underbar a {
-    text-decoration: none;
-    color: white;
-    font: size 80px; 
-    font-weight: 100; 
-    font-family: 'Source Sans Pro', sans-serif;
-    list-style: none;
-    text-align: right;
-    flex-wrap: wrap;
-}
-.underbar li{
+.maincolor {
+  background-color: black; }
+
+footer {
+  background-color: black; }
+  footer .underbar {
+    background-color: black;
+    padding: 10px; }
+  footer .underbar li {
     display: inline;
     margin: 20px;
-    flex-wrap: wrap;
-}
-.banner{
-    position:relative;
-    width: 100%;
-    height: 100%;
-    background-position:center ;
-    background-size:auto;
-    filter:none();
-    flex-wrap: wrap;
-    min-width: 500px;
-}
-.letra-banner{
-    position: absolute;
-    color: snow    ;
-    text-shadow: rgb(238, 255, 0) 10px 0px 15px;
-    
-    font: size 2000px; 
-    font: weight 2000px; ;
+    flex-wrap: wrap; }
+  footer .underbar a {
+    text-decoration: none;
+    color: white;
+    font: size 80px;
+    color: white;
+    font-weight: 100;
     font-family: 'Source Sans Pro', sans-serif;
-    top: 15%;
-    right: 10%;
-    flex-wrap: wrap;
-    min-width: 500px;
-    text-align: center;
-
-}
-.nombrepag{
-    color: yellow;
-}
-.caja-de-promo{
-    width: 250px;
-    height: 250px;
-    font-size: 40px;
-    background-color:black ;
-    padding-top: 10px;
-    padding-bottom:10px ;
-    padding-left: 10px;
-    padding-right: 10px;
-    box-shadow: 36px 10px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 36px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 36px 10px 5px 0px rgba(0,0,0,0.75);
-margin: 20px;
-display:inline-block;
-flex-wrap: wrap;
-background-position: center;
-}
-.caja-de-promo p {
-    color: azure;
-}
+    list-style: none; }
