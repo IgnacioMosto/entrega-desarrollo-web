@@ -19,11 +19,25 @@ header {
     text-transform: capitalize;
     color: yellow;
     font-size: 50px; }
-  header .carouselExampleIndicators {
-    height: 10px; }
 
-.maincolor {
-  background-color: black; }
+#maincolor {
+  background-color: gray; }
+
+.contenedorMain {
+  display: flex;
+  flex-direction: column; }
+
+#carouselExampleIndicators {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 2rem; }
+
+#footerindex {
+  position: fixed;
+  flex-wrap: wrap; }
 
 footer {
   background-color: black; }
@@ -36,9 +50,184 @@ footer {
     flex-wrap: wrap; }
   footer .underbar a {
     text-decoration: none;
-    color: white;
     font: size 80px;
     color: white;
     font-weight: 100;
     font-family: 'Source Sans Pro', sans-serif;
     list-style: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap; }
+
+header {
+  background-color: black; }
+  header .NavBar {
+    background-color: black;
+    padding: 10px; }
+  header .NavBar li {
+    display: inline;
+    margin: 20px;
+    flex-wrap: wrap; }
+  header .NavBar a {
+    text-decoration: none;
+    color: white;
+    font: size 80px;
+    font-weight: 100;
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none; }
+  header .NavBar p {
+    text-align: center;
+    text-transform: capitalize;
+    color: yellow;
+    font-size: 50px; }
+
+#contenedorVideos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 20vw;
+  padding-bottom: 1rem;
+  flex-wrap: wrap;
+  display: inline; }
+
+#video {
+  margin: 10px;
+  padding: 20px;
+  display: inline; }
+
+footer {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  flex-wrap: wrap; }
+  footer .underbar {
+    background-color: black;
+    padding: 10px; }
+  footer .underbar li {
+    display: inline;
+    margin: 20px;
+    flex-wrap: wrap; }
+  footer .underbar a {
+    text-decoration: none;
+    font: size 80px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none; }
+
+header {
+  background-color: black; }
+  header .NavBar {
+    background-color: black;
+    padding: 10px; }
+  header .NavBar li {
+    display: inline;
+    margin: 20px;
+    flex-wrap: wrap; }
+  header .NavBar a {
+    text-decoration: none;
+    color: white;
+    font: size 80px;
+    font-weight: 100;
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none; }
+  header .NavBar p {
+    text-align: center;
+    text-transform: capitalize;
+    color: yellow;
+    font-size: 50px; }
+
+.padre-mapa {
+  float: inline-end;
+  padding: 150px; }
+
+.mapa {
+  padding-bottom: 1005; }
+
+h1 {
+  color: black; }
+
+header {
+  background-color: black; }
+  header .NavBar {
+    background-color: black;
+    padding: 10px; }
+  header .NavBar li {
+    display: inline;
+    margin: 20px;
+    flex-wrap: wrap; }
+  header .NavBar a {
+    text-decoration: none;
+    color: white;
+    font: size 80px;
+    font-weight: 100;
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none; }
+  header .NavBar p {
+    text-align: center;
+    text-transform: capitalize;
+    color: yellow;
+    font-size: 50px; }
+
+footer {
+  background-color: black; }
+  footer .underbar {
+    background-color: black;
+    padding: 10px; }
+  footer .underbar li {
+    display: inline;
+    margin: 20px;
+    flex-wrap: wrap; }
+  footer .underbar a {
+    text-decoration: none;
+    font: size 80px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none; }
+
+header {
+  background-color: black; }
+  header .NavBar {
+    background-color: black;
+    padding: 10px; }
+  header .NavBar li {
+    display: inline;
+    margin: 20px;
+    flex-wrap: wrap; }
+  header .NavBar a {
+    text-decoration: none;
+    color: white;
+    font: size 80px;
+    font-weight: 100;
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none; }
+  header .NavBar p {
+    text-align: center;
+    text-transform: capitalize;
+    color: yellow;
+    font-size: 50px; }
+
+footer {
+  background-color: black; }
+  footer .underbar {
+    background-color: black;
+    padding: 10px; }
+  footer .underbar li {
+    display: inline;
+    margin: 20px;
+    flex-wrap: wrap; }
+  footer .underbar a {
+    text-decoration: none;
+    font: size 80px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none; }
+
+h1 {
+  text-align: left; }

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+
+}
+header{
+    background-color: black;
+
+.NavBar{
+    background-color:black;
+    padding: 10px;
+}
+.NavBar li{
+    display: inline;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.NavBar a{
+    text-decoration: none;
+    color: white;
+    font: size 80px; 
+    font-weight: 100; 
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none;
+}
+.NavBar p{
+    text-align:center;
+    text-transform: capitalize;
+    color: yellow;
+    font-size: 50px;
+
+}
+}
+#contenedorVideos{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+  width: 20vw;
+  padding-bottom: 1rem;
+  flex-wrap: wrap;
+  display: inline;
+}
+#video{
+    margin: 10px;
+    padding: 20px;
+    display: inline;
+}
+footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    flex-wrap: wrap;
+.underbar{
+    background-color:black;
+    padding: 10px;
+}
+.underbar li{
+    display: inline;
+    margin: 20px;
+    flex-wrap: wrap;
+
+}
+.underbar a{
+
+    text-decoration: none;
+    font: size 80px; color: white;
+    font-weight: 100; 
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none;
+}}

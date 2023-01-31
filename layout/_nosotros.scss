@@ -1,0 +1,48 @@
+header{
+    background-color: black;
+
+.NavBar{
+    background-color:black;
+    padding: 10px;
+}
+.NavBar li{
+    display: inline;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.NavBar a{
+    text-decoration: none;
+    color: white;
+    font: size 80px; 
+    font-weight: 100; 
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none;
+}
+.NavBar p{
+    text-align:center;
+    text-transform: capitalize;
+    color: yellow;
+    font-size: 50px;
+
+}
+}
+footer{
+    background-color: black;
+.underbar{
+    background-color:black;
+    padding: 10px;
+}
+.underbar li{
+    display: inline;
+    margin: 20px;
+    flex-wrap: wrap;
+
+}
+.underbar a{
+
+    text-decoration: none;
+    font: size 80px; color: white;
+    font-weight: 100; 
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none;
+}}
